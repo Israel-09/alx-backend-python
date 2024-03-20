@@ -4,10 +4,10 @@
 """
 from random import uniform
 import asyncio
-from typing import Iterator
+from typing import Generator
 
 
-async def async_generator() -> Iterator[float]:
+async def async_generator() -> Generator[float, None, None]:
     """
     generated 10 random floats
     """
