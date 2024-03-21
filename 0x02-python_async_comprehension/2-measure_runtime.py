@@ -1,4 +1,7 @@
 #!/usr/bin/env python3
+"""
+measure_runtime
+"""
 
 import asyncio
 from time import perf_counter
@@ -8,7 +11,7 @@ async_comprehension = __import__('1-async_comprehension').async_comprehension
 
 async def measure_runtime() -> float:
     """
-    async_comprehension
+    measure_runtime()
     """
     before = perf_counter()
 
